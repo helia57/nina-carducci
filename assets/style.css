@@ -142,7 +142,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-	font-size: 21px;
+	font-size: 20px;
 
 }
 .quote__author {
@@ -257,8 +257,8 @@ input[type="submit"] {
 	}
 	.gallery-item {
 		position: absolute;
-		width: 100%;
-		height: 100%;
+		width: 95%;
+		height: 95%;
 		object-fit: cover;
 	}
 }
