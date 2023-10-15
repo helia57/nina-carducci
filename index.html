@@ -12,6 +12,27 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	<!-- balise google tag ( mesure d'audience) -->
+	<script async 
+	src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'TAG_ID');
+	</script>
+
+	<!--  Les balises meta indispensables pour les réseaux sociaux : Facebook, Twitter, Google+, Pinterest -->
+	<meta name="Instagram:card" content="summary_large_image" />
+	<meta name="Instagram:site" content="https://www.instagram.com/ninacarducci.photo/?hl=fr" />
+	<meta name="Instagram:creator" content="Nina Carducci" />
+	<meta name="Instagram:title" content=" Nina Carducci, photographe professionnelle " />
+	<meta name="Instagram:description" content="Photographe professionnelle pour vos portraits, photographie de mariage, retouches, portrait noir et blanc, book d'entreprise et pourquoi pas vos photos de noel" />
+	<meta name="Instagram:image" content="https://helia57.github.io/nina-carducci/assets/images/nina.webp" />
+
+
+
+
 </head>
 <body>
 <nav class="top-header">
@@ -59,7 +80,7 @@
 </section>  								<!-- fin du carouselle  haut de page-->
 <section id="about"> 						<!-- à propos-->
 	<div class="picture left">
-		<img src="./assets/images/nina.webp" srcset="./assets/images/nina.webp 260w, ./assets/images/nina.webp 500w" alt="portrait de nina carducci, photographe" title="autoportrait" loading="lazy"> 
+		<img src="./assets/images/nina.webp" srcset="./assets/images/nina.webp 200w, ./assets/images/nina.webp 500w" alt="portrait de nina carducci, photographe" title="autoportrait" loading="lazy"> 
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
@@ -98,7 +119,7 @@
 		<article class="service">
 			<div class="service__description">
 				<h3>Shooting photo</h3>
-				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
+				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace pour réaliser vos photos</p>
 			</div>
 			<div class="service__price">
 				<h4>350€/demi journée</h4>
@@ -151,7 +172,7 @@
 			<form>
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera.webp"  srcset="./assets/images/camera.webp 260w, ./assets/images/camera.webp 500w" alt="appareil photo" title="appareil photo" loading="lazy">
+			<img src="./assets/images/camera.webp"  srcset="./assets/images/camera.webp 200w, ./assets/images/camera.webp 500w" alt="appareil photo" title="appareil photo" loading="lazy">
 		</div>
 	</div>
 </section>
