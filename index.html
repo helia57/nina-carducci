@@ -12,6 +12,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+
 	<!-- balise google tag ( mesure d'audience) -->
 	<script async 
 	src="https://www.googletagmanager.com/gtag/js?id=TAG_ID" defer></script>
@@ -30,8 +31,33 @@
 	<meta name="Instagram:description" content="Photographe professionnelle pour vos portraits, photographie de mariage, retouches, portrait noir et blanc, book d'entreprise et pourquoi pas vos photos de noel" />
 	<meta name="Instagram:image" content="https://helia57.github.io/nina-carducci/assets/images/nina.webp" />
 
-
-
+	<!-- Rich Snippets (extrait enrichi) -->
+	<script type="application/ld+json">
+		{
+		"@context": "https://schema.org",
+		"@type": "LocalBusiness",
+		"name": "Nina Carducci, Photographe professionnelle",
+		"image": "https://helia57.github.io/nina-carducci/assets/images/nina.webp",
+		"@id": "https://helia57.github.io/nina-carducci/",
+		"url": "https://helia57.github.io/nina-carducci/",
+		"telephone": "05 56 67 78 89",
+		"priceRange": "50€ 400€",
+		"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "68 avenue Alsace-Lorraine",
+		"addressLocality": "Bordeaux",
+		"postalCode": "33200",
+		"addressCountry": "FR"
+		},
+		"openingHoursSpecification": {
+		"@type": "OpeningHoursSpecification",
+		"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+		"opens": "10:00",
+		"closes": "19:00"
+		},
+		"sameAs": "https://www.instagram.com/ninacarducci.photo/?hl=fr"
+		}
+	</script>
 
 </head>
 <body>
@@ -176,9 +202,6 @@
 		</div>
 	</div>
 </section>
-<footer>
-	<p>copyright Nina Carducci - 10/2023</p>
-</footer>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="./assets/maugallery.js"></script>
 <script src="./assets/scripts.js"></script>
